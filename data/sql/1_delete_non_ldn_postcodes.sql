@@ -1,0 +1,16 @@
+DELETE FROM crimes
+WHERE postcode LIKE 'EN%' 
+   OR postcode LIKE 'EX%'
+   OR postcode LIKE 'NR%'
+   OR postcode LIKE 'NN%'
+   OR postcode LIKE 'NP%'
+   OR postcode LIKE 'NG%'
+   OR postcode LIKE 'NE%'
+   OR postcode LIKE 'TW%'
+   OR postcode LIKE 'WS%'
+   OR postcode LIKE 'WF%'
+   OR postcode LIKE 'WV%'
+   OR postcode LIKE 'WF%'
+   OR postcode LIKE 'WD%'
+   OR postcode LIKE 'WA%'
+   ;
